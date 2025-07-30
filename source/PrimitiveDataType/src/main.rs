@@ -23,6 +23,18 @@ fn main() {
     println!("The Maximum value of i32: {}", e);
     println!("Maximum value of i64: {}", i);
 
-    
+    //Float [Floating Point Types]
+    //f32, f64 
+    let pi: f64 = 3.14;
+    println!("Value of pi is: {}", pi);
+
+    //Boolean Values : True or False
+    let is_snowing: bool = true;
+    println!("Is it snowing? {}", is_snowing);
+
+    //Character Type - Char
+
+    let letter: char = 'a';
+    println!("First letter of the alphabet: {}", letter);
 
 }
