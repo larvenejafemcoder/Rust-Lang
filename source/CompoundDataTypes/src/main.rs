@@ -59,4 +59,10 @@ fn main() {
     let string: String = String::from("Hello World");
     let slice: &str = &string[0..5]; //stored on the stack not the heap
     println!("String Slice: {}", slice);
+    print();
+}
+
+fn print() {
+    // println!("SLICE: {}", slice);
+    println!("How YOU DECLARE A FunCTION");
 }
