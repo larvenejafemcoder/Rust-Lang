@@ -7,6 +7,8 @@
 // which are i8, i16, i32, i64 and lastly i128 (Signed integers). =>>  bigger the number the bigger the size
 // which are u8, u16, u32, u64 and lastly u128 (unSigned integers).
 
+// All of Rust Vars are inmutable by default
+
 fn main() {
     let x: i32 = -42;
     let y: u64 = 100; // cannot put a negative data with unsigned integers
